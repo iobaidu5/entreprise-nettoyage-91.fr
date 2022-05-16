@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('a[href="' + location.pathname + '"]')
       .closest("li")
       .addClass("active");
-  });
+});
 
 const nav = document.querySelector('.fixedNav');
 window.addEventListener('scroll', fixNav);
