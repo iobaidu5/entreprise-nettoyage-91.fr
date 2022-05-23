@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,14 +18,14 @@
 <meta name="description" content="Notre entreprise de nettoyage dans le 91 vous propose différentes prestations de nettoyage. Faites appel à nous, votre satisfaction est notre priorité." />
 <meta property="og:description" content="Notre entreprise de nettoyage dans le 91 vous propose différentes prestations de nettoyage. Faites appel à nous, votre satisfaction est notre priorité." />
 <meta name="keywords" content="Entreprise nettoyage 91" />
-<link rel="canonical" href="https://iobaidu5.github.io/entreprise-nettoyage-91.fr/" />
-<meta property="og:url" content="https://iobaidu5.github.io/entreprise-nettoyage-91.fr/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="BHInternet" />
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
 "@type":"WebSite",
-"url":"https://iobaidu5.github.io/entreprise-nettoyage-91.fr/",
+"url":"http://localhost:4000/",
 "description":"Notre entreprise de nettoyage dans le 91 vous propose différentes prestations de nettoyage. Faites appel à nous, votre satisfaction est notre priorité.",
 "name":"Clean Plus ✨ 🧽  Votre entreprise de nettoyage dans le 91"
 }
@@ -33,13 +33,14 @@
 
 </head>
 
-  <body>
-    
-    <div class="bcg_main">
-      <header>
+
+<body>
+  
+  <div class="bcg_main">
+    <header>
     <img src="./assets/img/logo_Clean_plus.png" alt="Logo Clean Plus" class="header_img"/>
 </header>
-      <section class="slider">
+    <section class="slider">
     <div class="container">
         <div class="slider_content">
             <h1 class="slider_content-title">Pour une entreprise de nettoyage 91, demandez un devis en quelques clics !</h1>
@@ -50,8 +51,8 @@
         </div>
     </div>
 </section>
-    </div>
-    <section class="Navbar_home fixedNav">
+  </div>
+  <section class="Navbar_home fixedNav">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
@@ -93,16 +94,16 @@
         </nav>
     </div>
 </section>
-    
+  
 
-    
-    <div class="">
-        <section class="slider_form">
+  
+  <div class="">
+    <section class="slider_form">
     <div class="container">
         <div class="slider_form-content">
             <form class="form slider_form" id="contactForm" method="post" action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
                 <input type="hidden" name="lang" value="fr">
-                <input type="hidden" name="redirectUrl" value="./" />
+                <input type="hidden" name="redirectUrl" value="/" />
                 <input type="hidden" name="type" value="contact" />
                 <input type="hidden" name="website" value="" />
                 <input type="hidden" name="lang" value="fr" />
@@ -556,9 +557,18 @@
     </div>
 </section> 
 
-    </div>
+  </div>
 
-    <footer class="footer bg-img">
+  <div id="loader">
+    <img src="../assets/img/logo_Clean_plus.png" alt="Logo Clean Plus" id="loader-img">
+    <script>
+      setTimeout(() => {
+        document.getElementById("loader").remove();
+      }, 4000);
+    </script>
+  </div>
+
+  <footer class="footer bg-img">
     <div class="container">
         <div class="row justify-content-between align-items-start">
             <div class="col-md-3">
@@ -660,5 +670,6 @@
 <script src="../assets/js/index.js"></script>
 <script src="../assets/js/formSubmit.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  </body>
+</body>
+
 </html>
