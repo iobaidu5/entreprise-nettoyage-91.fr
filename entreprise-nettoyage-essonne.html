@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,14 +18,14 @@
 <meta name="description" content="Notre entreprise de nettoyage intervient en Essonne mais aussi dans toute l’Île-de-France. Nous proposons des prestations pour particuliers et professionnels." />
 <meta property="og:description" content="Notre entreprise de nettoyage intervient en Essonne mais aussi dans toute l’Île-de-France. Nous proposons des prestations pour particuliers et professionnels." />
 <meta name="keywords" content="Entreprise nettoyage Essonne" />
-<link rel="canonical" href="http://localhost:4000/entreprise-nettoyage-essonne.html" />
-<meta property="og:url" content="http://localhost:4000/entreprise-nettoyage-essonne.html" />
+<link rel="canonical" href="http://localhost:4000/entreprise-nettoyage-essonne" />
+<meta property="og:url" content="http://localhost:4000/entreprise-nettoyage-essonne" />
 <meta property="og:site_name" content="BHInternet" />
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
 "@type":"WebSite",
-"url":"http://localhost:4000/entreprise-nettoyage-essonne.html",
+"url":"http://localhost:4000/entreprise-nettoyage-essonne",
 "description":"Notre entreprise de nettoyage intervient en Essonne mais aussi dans toute l’Île-de-France. Nous proposons des prestations pour particuliers et professionnels.",
 "name":"07 82 86 78 62 | Clean Plus, entreprise de nettoyage en Essonne"
 }
@@ -33,11 +33,15 @@
 
 </head>
 
-  <body>
-    
 
-    
-      <section class="Navbar fixedNav">
+<body>
+  <div class="btn_phone">
+    <a href="tel:+33782867862">07 82 86 78 62</a>
+</div>
+  
+
+  
+  <section class="Navbar fixedNav">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
@@ -79,9 +83,9 @@
         </nav>
     </div>
 </section>
-    
-    <div class="">
-        <section class="banner2">
+  
+  <div class="">
+    <section class="banner2">
     <div class="container">
         <div class="banner_content">
             <h1 class="slider_content-title">Une Entreprise de Nettoyage en Essonne</h1>
@@ -241,9 +245,18 @@
         </div>
     </div>
 </section>
-    </div>
+  </div>
 
-    <footer class="footer bg-img">
+  <div id="loader">
+    <img src="./assets/img/logo_Clean_plus.png" alt="Logo Clean Plus" id="loader-img">
+    <script>
+      setTimeout(() => {
+        document.getElementById("loader").remove();
+      }, 4000);
+    </script>
+  </div>
+
+  <footer class="footer bg-img">
     <div class="container">
         <div class="row justify-content-between align-items-start">
             <div class="col-md-3">
@@ -321,6 +334,9 @@
                             <a href="mailto:contact@clean-plus.fr"
                                 class="footer_content-li--link">contact@clean-plus.fr</a>
                         </li>
+                        <li class="footer_content-li">
+                            <a href="./mentions-legales.html" class="footer_content-li--link">Mentions légales</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -328,7 +344,7 @@
         <div class="footer_bottom">
             <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link">
                 <p class="footer_bottom-p">BHInternet - Création de site internet et référencement | 2022 | Mentions
-                    légale
+                    légales
                 </p>
             </a>
         </div>
@@ -345,5 +361,6 @@
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  </body>
+</body>
+
 </html>
