@@ -15,3 +15,13 @@ function fixNav() {
         nav.classList.remove('navbar-active');
     }
 }
+
+if(sessionStorage.getItem("loadAnim") == "true"){
+    document.getElementById("loader").style.display = "none";
+}else{
+    document.getElementById("loader").style.display = "grid";
+}
+
+window.addEventListener("load", () => {
+    sessionStorage.setItem("loadAnim", "true");
+})
