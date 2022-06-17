@@ -18,10 +18,10 @@ function fixNav() {
 
 if(sessionStorage.getItem("loadAnim") == "true"){
     document.getElementById("loader").style.display = "none";
-}else{
+  }else{
     document.getElementById("loader").style.display = "grid";
-}
+  }
 
-window.addEventListener("load", () => {
+  window.addEventListener("load", () => {
     sessionStorage.setItem("loadAnim", "true");
-})
+  })
